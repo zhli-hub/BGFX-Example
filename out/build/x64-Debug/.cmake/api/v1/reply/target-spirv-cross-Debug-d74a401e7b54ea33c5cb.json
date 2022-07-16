@@ -1,0 +1,305 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "spirv-cross.lib"
+		}
+	],
+	"backtrace" : 7,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/3rdparty/spirv-cross.cmake",
+			"cmake/tools/shaderc.cmake",
+			"cmake/tools.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"file" : 0,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/wd4018"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/wd4245"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/wd4706"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/wd4715"
+				},
+				{
+					"fragment" : "-std:c++14"
+				},
+				{
+					"fragment" : "/W0"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "SPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bgfx/3rdparty/spirv-cross"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bgfx/3rdparty/spirv-cross/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx/3rdparty"
+	},
+	"id" : "spirv-cross::@6890427a1f51a3e7e1df",
+	"name" : "spirv-cross",
+	"nameOnDisk" : "spirv-cross.lib",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				7
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 7,
+			"path" : "bgfx/3rdparty/spirv-cross/GLSL.std.450.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_cfg.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_cpp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_cross.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_cross_c.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_cross_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_cross_parsed_ir.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_cross_util.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_glsl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_hlsl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_msl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_parser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/3rdparty/spirv-cross/spirv_reflect.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

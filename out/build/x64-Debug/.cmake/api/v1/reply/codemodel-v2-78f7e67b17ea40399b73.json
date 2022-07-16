@@ -1,0 +1,320 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EStarHomework",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "astc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astc-Debug-4b3bb0f6023656bef499.json",
+					"name" : "astc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "astc-codec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astc-codec-Debug-36f6921e9088e1248b77.json",
+					"name" : "astc-codec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bgfx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bgfx-Debug-3d103167a76098ebd18b.json",
+					"name" : "bgfx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bimg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bimg-Debug-3ddfe9a466455815d56f.json",
+					"name" : "bimg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bx-Debug-bd366cf19b80b4a167a2.json",
+					"name" : "bx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dear-imgui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dear-imgui-Debug-6d05f90c39469737f199.json",
+					"name" : "dear-imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "edtaa3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-edtaa3-Debug-78c374d2ad2c1c951c1d.json",
+					"name" : "edtaa3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "etc1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-etc1-Debug-1d42baa0958a90d0eb19.json",
+					"name" : "etc1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "etc2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-etc2-Debug-633d6a3a6387e0488562.json",
+					"name" : "etc2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example-common::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example-common-Debug-a8e009572466324afa85.json",
+					"name" : "example-common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcpp-Debug-2f9fb75a40acbc03c7a0.json",
+					"name" : "fcpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometryc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometryc-Debug-c8bfce1cae2a216249cd.json",
+					"name" : "geometryc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geometryv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geometryv-Debug-06361f9615b1d2c7eb1f.json",
+					"name" : "geometryv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glcpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glcpp-Debug-9c87e7d706d7fd1dbf2b.json",
+					"name" : "glcpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glsl-optimizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glsl-optimizer-Debug-d73e166dd37f7000a8d6.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glslang::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glslang-Debug-4d48f6fca84d08ebfde1.json",
+					"name" : "glslang",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "homework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-homework-Debug-8608c99fdcfef46fb8d5.json",
+					"name" : "homework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "iqa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iqa-Debug-c644f0628bfc271f1889.json",
+					"name" : "iqa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesa-Debug-2bb482163dad5e0ae3c6.json",
+					"name" : "mesa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "meshoptimizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-meshoptimizer-Debug-3467ce402ffad24852cc.json",
+					"name" : "meshoptimizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nvtt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nvtt-Debug-873c836228fb688a1551.json",
+					"name" : "nvtt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pvrtc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pvrtc-Debug-ac4b5490a9becfb4a233.json",
+					"name" : "pvrtc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shaderc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shaderc-Debug-80e8cdd6575b2c6aef8d.json",
+					"name" : "shaderc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-Debug-d74a401e7b54ea33c5cb.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-tools-Debug-e7335c24c8f2edf7ebe6.json",
+					"name" : "spirv-tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "squish::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-squish-Debug-801cc74b1097808b97be.json",
+					"name" : "squish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "texturec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-texturec-Debug-c351d2c98d5db25b1690.json",
+					"name" : "texturec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "texturev::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-texturev-Debug-3afa0df59e30ea0745c8.json",
+					"name" : "texturev",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tinyexr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tinyexr-Debug-9a9ca26105475138d6dd.json",
+					"name" : "tinyexr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tools-Debug-533d272b4bec163c3c03.json",
+					"name" : "tools",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/out/build/x64-Debug",
+		"source" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

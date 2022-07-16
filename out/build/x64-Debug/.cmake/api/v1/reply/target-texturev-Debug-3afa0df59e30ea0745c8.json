@@ -1,0 +1,340 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "texturev.exe"
+		},
+		{
+			"path" : "texturev.pdb"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_libraries",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"cmake/tools/texturev.cmake",
+			"cmake/tools.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "BX_CONFIG_DEBUG=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bgfx/examples/common"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bgfx/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bx/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bx/3rdparty"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bx/include/compat/msvc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bimg/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Master/ComputerGraphics/EStar/project-e-star-homework/bgfx/3rdparty"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "tinyexr::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "nvtt::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "pvrtc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "squish::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "example-common::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "edtaa3::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "astc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "astc-codec::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "bx::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "bgfx::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "etc1::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "etc2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "iqa::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "meshoptimizer::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "bimg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "dear-imgui::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx/tools"
+	},
+	"id" : "texturev::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "example-common.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bgfx.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bimg.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "astc-codec.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "astc.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "edtaa3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "etc1.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "etc2.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "iqa.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "squish.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "nvtt.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "pvrtc.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "tinyexr.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "dear-imgui.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bx.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "meshoptimizer.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "texturev",
+	"nameOnDisk" : "texturev.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "bgfx/tools/texturev/texturev.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
